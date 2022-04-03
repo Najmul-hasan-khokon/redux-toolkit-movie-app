@@ -26,7 +26,9 @@ export const fetchAsyncShows = createAsyncThunk(
   "movies/fetchAsyncShows",
   async (searchText) => {
     const response = await axios.get(
-      `https://www.omdbapi.com/?s=friends&apikey=${apiKey}&type=series`
+      `https://www.omdbapi.com/?s=${
+        searchText ? searchText : "friends"
+      }&apikey=${apiKey}&type=series`
     );
     return response.data;
   }

@@ -41,3 +41,15 @@ or [variable.fulfilled] : (state, {payLoad})=>{return {...state, initialState's 
 last e state clean o kore dite pari.
 
 
+
+
+
+
+react-slick ba carousel
+_________________________
+react-slick theke ekta Slider component pabo seta diye jetar upore carousel dibo
+setake just slider diye wrap kore dibo and ekta props akare ekta settings diye dibo.
+
+css style er jonno cdn link add kore nibo. ba custom css o dite pari.
+
+
